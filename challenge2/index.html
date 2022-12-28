@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codificador de texto</title>
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="assets/stylo.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo alura.svg" alt="Logo Alura">
+    </header>
+   <main>
+        <section class="encriptar">
+            <textarea id="introducir-texto" class="textarea" type="mensaje" cols="50" rows="10" placeholder="escreva seu texto aqui"></textarea>
+                 <div class="alerta">
+                    <p>apenas letras minusculas e sem assento</p>
+                 </div>
+                <div class="btn-conteiner">
+                  <button id="btn1" class="btn1">criptografar!</button>
+                     <button id="btn2"class="btn2">Descriptografar!</button>
+
+        </section>
+        <section class="tablero">
+            <div id="conteiner-resultado">
+                <h2 id="titulo-resultado"></h2>
+            </div>
+            <div id="toy" class="conteinerImg">
+                <img src="img/Muñeco.svg" alt="Muñeco">
+                <p  class="text1"><strong>nenhum texto foi encontrado</strong></p>
+                <p class="text2">coloque um texto para criptografar ou descriptografar</p>
+            </div>
+            <textarea id="resultado" readonly></textarea>
+            <button id="btn-copy" class="btnCopy">Copiar</button>
+
+        </section>
+</main>
+<footer>feito por Agnelo medeiros</footer>
+
+<script src="assets/js/encriptador.js"></script>
+<script src="assets/js/desencriptador.js"></script>
+<script src="assets/js/copiar.js"></script>
+</body>
+</html>
